@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>profile</title>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery.js"></script>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/carousel.css" rel="stylesheet">
+
+    
+</head>
+<body>
+    
+	<nav class="navbar navbar-expand sticky-top navbar-dark bg-dark" aria-label="Second navbar example" width="100%" height="100%">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#profile" style="color: gold;">
+            <img src="image/foto.png" width="30" height="24" style="background-size: cover;"   class="d-inline-block align-text-top">  profile
+            </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample02" aria-controls="navbarsExample02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <div class="collapse navbar-collapse" id="navbarsExample02">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: gold;">
+                      portofolio
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href ="#desain">Desain</a></li>
+                      <li><a class="dropdown-item" href="#product">Product</a></li>
+                      <li><a class="dropdown-item" href="#aplikasi">aplikasi</a></li>
+                    </ul>
+          
+              <li class="nav-item">
+                <a class="nav-link" href="#top" style="color: gold;">Username</a>
+              </li>
+              <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: gold;">
+                      contact
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href ="mailto:adimiftah063@gmail.com?Subject=Saya%20Ingin20%bertanya"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-gmail" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff2825" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M16 20h3a1 1 0 0 0 1 -1v-14a1 1 0 0 0 -1 -1h-3v16z" />
+                        <path d="M5 20h3v-16h-3a1 1 0 0 0 -1 1v14a1 1 0 0 0 1 1z" />
+                        <path d="M16 4l-4 4l-4 -4" />
+                        <path d="M4 6.5l8 7.5l8 -7.5" />
+                      </svg>Gmail</a>
+                        
+                    </li>
+                    <li><a class="dropdown-item" href ="https://wa.me/081285105471"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-whatsapp" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00b341" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                      <path d="M3 21l1.65 -3.8a9 9 0 1 1 3.4 2.9l-5.05 .9" />
+                      <path d="M9 10a0.5 .5 0 0 0 1 0v-1a0.5 .5 0 0 0 -1 0v1a5 5 0 0 0 5 5h1a0.5 .5 0 0 0 0 -1h-1a0.5 .5 0 0 0 0 1" />
+                    </svg>whats app</a>
+                         
+              
+                    </li>
+                      <li><a class="dropdown-item" href="https://www.instagram.com/adi.mif0/"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="#fd0061" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <rect x="4" y="4" width="16" height="16" rx="4" />
+                        <circle cx="12" cy="12" r="3" />
+                        <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
+                      </svg>instagram</a>
+                        
+                      </li>
+                    </ul>
+            </ul>
+            <form>
+              <p>Masukan Username:</p>
+              <input id='email'>
+              <button type='submit' id='validate'> Enter</button>
+              </form>
+              
+          </div>
+        </div>
+      </nav>
+      
+      <main>
+        <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center " style="background-image: url(image/wallhaven-x8ye3z.jpg); background-size: 80%;">
+          <div class="col-md-5 p-lg-5 mx-auto my-5">
+            <h1 class="display-4 fw-normal" style="font-family: fantasy;">WELCOME</h1>
+            <h2 id='result' style="font-family:fantasy;"> </h2>
+          </div>
+      </main>
+
+      <hr class="featurette-divider">
+      <div id="profile"></div>
+      <div class="row featurette">
+        <div class="col-md-7" style="padding-left: 10%;">
+          <h2 class="featurette-heading fw-normal lh-1" style="text-align: center;">ADI MIFTAH</h2>
+          <h1 style="font: 20px; text-align: center;">MULTIMEDIA</h1>
+          <p class="lead" style="text-align: center;">Halo,saya adi miftah biasa dipanggil adi dan biasanya saya suka membuat animasi dan desain
+            .saya ingin terus berkembang di bidang tersebut karena dengan belajar design dan animasi saya dapat belajar mengenai anatomi tubuh.</p>
+        </div>
+        <div class="col-md-5">
+         <img src="image/adifoto2.png" width="100%" height="100%" style="padding-left: 30%;">
+        </div>
+      </div>
+
+      <div id="desain">
+        <p style="text-align: center;font-size: 80px;padding: 10% 0 0 0;">Design</p>
+      </div>
+
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <h5 class="card-title" style="text-align: center;">Iklan Komersial</h5>
+            <video src="video/Chocola.mp4" loop="true" autoplay="true" muted="false" class="card-img-top" alt="...">
+            <div class="card-body">
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="image/IMG-20220926-WA0000.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title" style="text-align: center;"> preset</h5>
+              <a href="preset/Kimi no Na Wa Preset.dng" download="kimi no nawa">Download Preset</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <h5 class="card-title" style="text-align: center; padding-bottom: 10%;">Animasi 2D</h5>
+            <video src="video/Comp 1.mp4" loop="true" autoplay="true" muted="false" class="card-img-top" alt="...">
+            <div class="card-body">
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      
+      <div id="product">
+        <p style="text-align: center;font-size: 80px;padding: 10% 0 0 0;">Product</p>
+      </div>
+        <main>
+          <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center " style="background-image: url(image/baju.png); background-size: 100%; background-repeat: no-repeat;">
+            <div class="col-md-5 p-lg-5 mx-auto my-5">
+              <h1 class="display-4 fw-normal" style="font-family: fantasy;"></h1>
+            </div>
+          </div>
+          </main>
+
+            <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+              <div class="text-bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+                <div class="my-3 py-3">
+                  <h2 class="display-5">for couple</h2>
+                  <p class="lead"></p>
+                </div>
+                <div class=" shadow-sm mx-auto" style="background-image: url(image/couple.png);background-size: cover; width: 120%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+              </div>
+              <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+                <div class="my-3 p-3">
+                  <h2 class="display-5">black tshirt</h2>
+                  <p class="lead"></p>
+                </div>
+                <div class=" shadow-sm mx-auto" style="background-image: url(image/alif.png);background-size: cover; width: 100%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+              </div>
+            </div>
+            
+            
+
+            <div id="aplikasi">
+              <p style="text-align: center;font-size: 80px;padding: 5% 0 0 0;">Aplikasi</p>
+            </div>
+              <main>
+                <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center " style="background-image: url(image/hp.png); background-size: 100%; background-repeat: no-repeat;" width="100%" height="100% ">
+                  <div class="col-md-5 p-lg-5 mx-auto my-5">
+                    <h1 class="display-4 fw-normal" style="font-family: fantasy;color: white;">TIB</h1>
+                    <p style="color: white;">tib adalah aplikasi pembelajaran android untuk sejarah perang dunia. di apk tib kami menyediakan materi baik berupa tulisan maupun video.dan juga memiliki soal soal untuk mengetes pemahaman kalian</p>
+                    <a class="btn btn-outline-secondary" href="apk/Tib.apk" download="tib.apk" style="color: rgb(241, 122, 122);">klik disini untuk download</a>
+                  </div>
+                </div>
+
+      </div>
+
+      <script>
+      function validateEmailAddress(email) {
+        var re = /^(adimif)$/;
+        return re.test(email);
+        }
+        function validate() {
+        $("#result").text("");
+        var emailaddress = $("#email").val();
+        if (validateEmailAddress(emailaddress)) {
+        $("#result").text("owner " + emailaddress);
+        } else {
+        $("#result").text(emailaddress);
+        }
+        return false;
+        }
+        $("#validate").bind("click", validate);
+      </script>
+
+</html>
