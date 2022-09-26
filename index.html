@@ -35,8 +35,17 @@
                       <li><a class="dropdown-item" href="#aplikasi">aplikasi</a></li>
                     </ul>
           
-              <li class="nav-item">
-                <a class="nav-link" href="#top" style="color: gold;">Username</a>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: gold;">
+                  Masukan Username
+                </a>
+                <ul class="dropdown-menu"style="background-color: rgb(41, 34, 34) ;">
+                <form>
+                  <p style="text-align: center; color: gold;">Masukan Username:</p>
+                  <input id='email'>
+                  <button type='submit' id='validate' style="text-align: center; color: gold;"> Enter</button>
+                  </form>
+                </ul>
               </li>
               <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: gold;">
@@ -70,11 +79,7 @@
                       </li>
                     </ul>
             </ul>
-            <form>
-              <p>Masukan Username:</p>
-              <input id='email'>
-              <button type='submit' id='validate'> Enter</button>
-              </form>
+           
               
           </div>
         </div>
